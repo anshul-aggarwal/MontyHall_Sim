@@ -51,7 +51,7 @@ def montyhall():
     print("Player Stays with same door and Loses: " + str(incorrect_samedoor/no_of_tests))
 
     #Success probabilities on making the switching decision
-    print("\SUCCESS SCENARIOS FOR GAMESHOW CONTESTANTS\n------------------------------------------")
+    print("\nSUCCESS SCENARIOS FOR GAMESHOW CONTESTANTS\n------------------------------------------")
     print("Switch Door to Win: " + str(switchdoor_actual/no_of_tests))
     print("Same Door to Win: " + str(samedoor_actual/no_of_tests))
 
